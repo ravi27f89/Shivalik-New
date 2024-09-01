@@ -1,10 +1,3 @@
-//
-//  PageControl.swift
-//  Shivalik
-//
-//  Created by ravi maru on 01/09/24.
-//
-
 import SwiftUI
 
 struct PageControl: View {

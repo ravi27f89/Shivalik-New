@@ -1,10 +1,3 @@
-//
-//  Property.swift
-//  Shivalik
-//
-//  Created by ravi maru on 01/09/24.
-//
-
 import Foundation
 
 struct Property: Identifiable, Codable{

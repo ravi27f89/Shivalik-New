@@ -1,10 +1,3 @@
-//
-//  PropertyViewModel.swift
-//  Shivalik
-//
-//  Created by ravi maru on 01/09/24.
-//
-
 import Foundation
 import Combine
 
@@ -21,7 +14,7 @@ class PropertyViewModel: ObservableObject {
 
     init() {
         fetchCategory()
-        fetchItems(at: 0)
+        fetchItems()
     }
     
     func fetchCategory() {
@@ -39,7 +32,7 @@ class PropertyViewModel: ObservableObject {
         }
     }
     
-    func fetchItems(at index: Int) {
+    func fetchItems(at index: Int = 0) {
         guard let url = Bundle.main.url(forResource: "Properties", withExtension: "json") else {
             print("Failed to locate items.json in bundle.")
             return
@@ -78,8 +71,6 @@ class PropertyViewModel: ObservableObject {
         }
         
         let sortedCharacters = characterCount.sorted { $0.value > $1.value }.prefix(3)
-        //let top3Characters = sortedCharacters.prefix(3)
-                
         for (char, count) in sortedCharacters {
             topOccurance = topOccurance + "\(char.uppercased()): \(count) \n"
         }
