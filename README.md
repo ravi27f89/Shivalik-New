@@ -1,8 +1,3 @@
-# `Shivalik Group!`
-
-![iOS 15.0+](https://img.shields.io/badge/iOS-16.0%2B-yellow.svg) ![Xcode 15.0+](https://img.shields.io/badge/Xcode-15.4%2B-blue.svg) ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-purple)
-
-
 ## `Overview`
 Shivalik Group - A leading real estate developer in Ahmedabad, Gujarat offering quality residential & commercial projects with modern amenities. Shivalik has a rich history of revitalizing cityscapes, with 75+ landmarks since 1998. Our focus on community development in key areas like GIFT City, Vaishnodevi, Panjrapole, Shela, Ambli, Prahladnagar, Bopal Shyamal & Bodakdev has earned our customers remarkable appreciation.
 
@@ -20,8 +15,24 @@ MVVM Architecture to organize code in a clean and efficient way, with building u
     - **Model**: Represents the data and business logic. (Property.swift,Category.swift)
     - **View**: The user interface (UI) that the user interacts with. In Swift, this is often your SwiftUI views or UIKit components.
     - **ViewModel**: Acts as a bridge between the Model and the View. It takes data from the Model, processes it if needed, and provides it to the View in a way that’s easy to display.
+  
 
-![List]https://i.postimg.cc/tZPw9YH5/1.jpg
+SwiftUI offers an intuitive way to design user interfaces across all Apple platforms, harnessing the power of Swift.
 
-![Menu]https://i.postimg.cc/3d3VH8fX/2.jpg
+## Screenshots
+Attached are screenshots for reference. 
 
+![List]https://i.postimg.cc/w7FPqCnS/11.jpg
+
+![Menu]https://i.postimg.cc/k24HBjmD/12.jpg
+
+![Search]https://i.postimg.cc/9DnnTGmb/13.jpg
+
+
+## Author
+
+Ravi Maru, maru_ravi2000@yahoo.com
+
+## License
+
+Shivalik-New is available under the MIT license. See the LICENSE file for more info.
