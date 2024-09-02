@@ -21,9 +21,9 @@ SwiftUI offers an intuitive way to design user interfaces across all Apple platf
 ## Screenshots
 Attached are screenshots for reference. 
 
-![List]https://i.postimg.cc/tZPw9YH5/1.jpg
+![List](https://github.com/ravi27f89/Shivalik-New/blob/main/Shivalik/Screens/1.png)
 
-![Menu]https://i.postimg.cc/3d3VH8fX/2.jpg
+![Menu](https://github.com/ravi27f89/Shivalik-New/blob/main/Shivalik/Screens/2.png)
 
 
 ## Author
