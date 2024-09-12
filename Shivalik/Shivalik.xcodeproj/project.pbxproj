@@ -11,15 +11,13 @@
 		327DEC6E2C85F35900904AFA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327DEC6D2C85F35900904AFA /* ListView.swift */; };
 		327DEC702C85F36A00904AFA /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327DEC6F2C85F36A00904AFA /* FloatingButton.swift */; };
 		327DEC722C85F37500904AFA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327DEC712C85F37500904AFA /* SearchBar.swift */; };
+		32EEB2EF2C92B3E600439057 /* PropertyMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 32EEB2EE2C92B3E600439057 /* PropertyMockData.json */; };
+		32EEB2F12C92B5BA00439057 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EEB2F02C92B5BA00439057 /* DataLoader.swift */; };
 		5480E42F2C8456AE00D1459E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5480E42E2C8456AE00D1459E /* Preview Assets.xcassets */; };
-		5480E4492C846A3C00D1459E /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 5480E4372C846A3C00D1459E /* Categories.json */; };
-		5480E44A2C846A3C00D1459E /* Properties.json in Resources */ = {isa = PBXBuildFile; fileRef = 5480E4382C846A3C00D1459E /* Properties.json */; };
 		5480E44D2C846A3C00D1459E /* PropertyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E43D2C846A3C00D1459E /* PropertyListView.swift */; };
-		5480E44F2C846A3C00D1459E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5480E4432C846A3C00D1459E /* Preview Assets.xcassets */; };
 		5480E4502C846A3C00D1459E /* ShivalikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E4452C846A3C00D1459E /* ShivalikApp.swift */; };
 		5480E4512C846A3C00D1459E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5480E4472C846A3C00D1459E /* Assets.xcassets */; };
-		5480E45B2C846D1900D1459E /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E45A2C846D1900D1459E /* Property.swift */; };
-		5480E45D2C846D2200D1459E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E45C2C846D2200D1459E /* Category.swift */; };
+		5480E45B2C846D1900D1459E /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E45A2C846D1900D1459E /* PropertyModel.swift */; };
 		5480E45F2C846D5C00D1459E /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E45E2C846D5C00D1459E /* PropertyViewModel.swift */; };
 		5480E4632C847E5F00D1459E /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E4622C847E5F00D1459E /* PageControl.swift */; };
 /* End PBXBuildFile section */
@@ -29,16 +27,14 @@
 		327DEC6D2C85F35900904AFA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		327DEC6F2C85F36A00904AFA /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		327DEC712C85F37500904AFA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		32EEB2EE2C92B3E600439057 /* PropertyMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PropertyMockData.json; sourceTree = "<group>"; };
+		32EEB2F02C92B5BA00439057 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		5480E4242C8456AD00D1459E /* Shivalik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shivalik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5480E42E2C8456AE00D1459E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5480E4372C846A3C00D1459E /* Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
-		5480E4382C846A3C00D1459E /* Properties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Properties.json; sourceTree = "<group>"; };
 		5480E43D2C846A3C00D1459E /* PropertyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListView.swift; sourceTree = "<group>"; };
-		5480E4432C846A3C00D1459E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5480E4452C846A3C00D1459E /* ShivalikApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShivalikApp.swift; sourceTree = "<group>"; };
 		5480E4472C846A3C00D1459E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5480E45A2C846D1900D1459E /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
-		5480E45C2C846D2200D1459E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5480E45A2C846D1900D1459E /* PropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
 		5480E45E2C846D5C00D1459E /* PropertyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
 		5480E4622C847E5F00D1459E /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,11 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				5480E4462C846A3C00D1459E /* Application */,
-				5480E4392C846A3C00D1459E /* Helper */,
-				5480E4442C846A3C00D1459E /* Preview Content */,
+				5480E4422C846A3C00D1459E /* Module */,
 				5480E4482C846A3C00D1459E /* Resources */,
-				5480E4422C846A3C00D1459E /* Screens */,
-				5480E42D2C8456AE00D1459E /* Preview Content */,
+				5480E4392C846A3C00D1459E /* Utility */,
 			);
 			path = Shivalik;
 			sourceTree = "<group>";
@@ -91,20 +85,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5480E4392C846A3C00D1459E /* Helper */ = {
+		5480E4392C846A3C00D1459E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				5480E4372C846A3C00D1459E /* Categories.json */,
-				5480E4382C846A3C00D1459E /* Properties.json */,
+				32EEB2F02C92B5BA00439057 /* DataLoader.swift */,
 			);
-			path = Helper;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		5480E43C2C846A3C00D1459E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5480E45A2C846D1900D1459E /* Property.swift */,
-				5480E45C2C846D2200D1459E /* Category.swift */,
+				5480E45A2C846D1900D1459E /* PropertyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,20 +132,12 @@
 			path = Properties;
 			sourceTree = "<group>";
 		};
-		5480E4422C846A3C00D1459E /* Screens */ = {
+		5480E4422C846A3C00D1459E /* Module */ = {
 			isa = PBXGroup;
 			children = (
 				5480E4412C846A3C00D1459E /* Properties */,
 			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		5480E4442C846A3C00D1459E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5480E4432C846A3C00D1459E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = Module;
 			sourceTree = "<group>";
 		};
 		5480E4462C846A3C00D1459E /* Application */ = {
@@ -167,9 +151,27 @@
 		5480E4482C846A3C00D1459E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5480E4472C846A3C00D1459E /* Assets.xcassets */,
+				742055782C92DF0F00EAF9B5 /* JSON */,
+				742055772C92DEFE00EAF9B5 /* Images */,
+				5480E42D2C8456AE00D1459E /* Preview Content */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		742055772C92DEFE00EAF9B5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5480E4472C846A3C00D1459E /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		742055782C92DF0F00EAF9B5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				32EEB2EE2C92B3E600439057 /* PropertyMockData.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5480E44F2C846A3C00D1459E /* Preview Assets.xcassets in Resources */,
+				32EEB2EF2C92B3E600439057 /* PropertyMockData.json in Resources */,
 				5480E42F2C8456AE00D1459E /* Preview Assets.xcassets in Resources */,
-				5480E44A2C846A3C00D1459E /* Properties.json in Resources */,
-				5480E4492C846A3C00D1459E /* Categories.json in Resources */,
 				5480E4512C846A3C00D1459E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,15 +246,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				327DEC6E2C85F35900904AFA /* ListView.swift in Sources */,
-				5480E45B2C846D1900D1459E /* Property.swift in Sources */,
+				5480E45B2C846D1900D1459E /* PropertyModel.swift in Sources */,
 				327DEC702C85F36A00904AFA /* FloatingButton.swift in Sources */,
 				5480E45F2C846D5C00D1459E /* PropertyViewModel.swift in Sources */,
 				5480E4632C847E5F00D1459E /* PageControl.swift in Sources */,
 				327DEC6C2C85EF1200904AFA /* Header.swift in Sources */,
+				32EEB2F12C92B5BA00439057 /* DataLoader.swift in Sources */,
 				5480E4502C846A3C00D1459E /* ShivalikApp.swift in Sources */,
 				327DEC722C85F37500904AFA /* SearchBar.swift in Sources */,
 				5480E44D2C846A3C00D1459E /* PropertyListView.swift in Sources */,
-				5480E45D2C846D2200D1459E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +387,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Shivalik/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shivalik/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -422,7 +422,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Shivalik/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Shivalik/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

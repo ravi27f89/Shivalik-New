@@ -2,11 +2,11 @@ import SwiftUI
 
 struct ListView: View {
     
-    @ObservedObject var viewModel: PropertyViewModel
+    var property: [Property]
 
     var body: some View {
         VStack(alignment: .leading){
-            ForEach(viewModel.properties){ item in
+            ForEach(property){ item in
                 HStack() {
                     Image(item.image)
                         .resizable()

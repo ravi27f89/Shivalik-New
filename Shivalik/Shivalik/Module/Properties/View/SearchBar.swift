@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct SearchBar: View {
-    @Binding var viewModel: PropertyViewModel
+    @Binding var searchText: String
     var body: some View {
         HStack {
-            TextField("Search...", text: $viewModel.searchText)
+            TextField("Search...", text: $searchText)
                 .padding(7)
                 .background(Color(.systemGray6))
                 .cornerRadius(8)

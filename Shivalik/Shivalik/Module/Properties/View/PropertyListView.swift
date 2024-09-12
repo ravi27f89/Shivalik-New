@@ -1,24 +1,29 @@
 import SwiftUI
 
 struct PropertyListView: View {
-    @ObservedObject var viewModel: PropertyViewModel
     @State private var showingActionSheet = false
     @State private var currentPage = 0
+    @StateObject var viewModel = PropertyViewModel()
+
+    private var property: [Property] {
+        return viewModel.searchText.isEmpty ? viewModel.selectedProperty : viewModel.filteredProperty
+    }
     
     var body: some View {
         NavigationView {
             ZStack{
                 ScrollView {
                     VStack(alignment: .leading) {
-                        Header(currentPage: $currentPage, viewModel: viewModel)
-                        SearchBar(viewModel: .constant(viewModel))
-                        ListView(viewModel: viewModel)
+                        Header(currentPage: $currentPage, category: viewModel.response?.category ?? [])
+                        .onChange(of: currentPage, perform: { newValue in
+                            viewModel.fetchProperty(at: newValue)
+                        })
+                        SearchBar(searchText: $viewModel.searchText)
+                        ListView(property: property)
                             .onAppear {
-                                viewModel.fetchCategory()
-                                viewModel.fetchItems(at: currentPage)
+                                viewModel.fetchProperty(at: currentPage)
                             }
-                        
-                    }.navigationTitle(viewModel.categories[currentPage].title)
+                    }
                 }
                 VStack{
                     Spacer()
@@ -28,7 +33,7 @@ struct PropertyListView: View {
                             .padding([.trailing, .bottom])
                             .actionSheet(isPresented: $showingActionSheet) {
                                 ActionSheet(
-                                    title: Text(viewModel.categories[currentPage].title),
+                                    title: Text(viewModel.response?.category[currentPage].title ?? ""),
                                     message: Text(viewModel.fetchOccurance()),
                                     buttons: [
                                         .cancel()
@@ -38,6 +43,8 @@ struct PropertyListView: View {
                     }
                 }
             }
+            .navigationTitle(viewModel.response?.category[currentPage].title ?? "")
         }
     }
 }
+
